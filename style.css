@@ -1,0 +1,55 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: pink;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  .buttons {
+    margin-bottom: 20px;
+  }
+  
+  .button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: red;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+  }
+  h3 {
+    color: black;
+    font-style: italic;
+  }
+  .image-container {
+    text-align: center;
+  }
+  .image {
+    max-width: 100%;
+    height: auto;
+  }
+ 
+  @media (max-width: 390px) {
+    /* Estilos para telas menores, como smartphones */
+  }
+  
+  @media (min-width: 769px) and (max-width: 1024px) {
+    /* Estilos para tablets e telas maiores */
+  }
+  
+  @media (min-width: 1025px) {
+    /* Estilos para telas de desktop */
+  }
+ 
+  
+  
+  
+  
+  
+    
